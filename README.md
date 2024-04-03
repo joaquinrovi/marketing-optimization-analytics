@@ -82,7 +82,7 @@ $$ \sum_{i \in I} \mathbb{E}[R_{i}^{cpa}] * y_{i} \leq C_1 $$
 
 $$ \sum_{i \in I} \mathbb{E}[R_{i}^{cpl}] * y_{i} \leq C_2 $$
 
-$$ \sum_{i \in I}\sum_{p \in I} y_{i}*y_{p}*\Sigma_{i,p}^{total} \leq \sigma_{total}^{2} $$
+$$ \sum_{i \in I}\sum_{p \in I} y_{i} * y_{p} * \Sigma_{i,p}^{total} \leq \sigma_{total}^{2} $$
 
 $$ \sum_{i \in I}\sum_{p \in I} z_{i,p}*\Sigma_{i,p}^{total} \leq \sigma_{total}^{2} $$
 
