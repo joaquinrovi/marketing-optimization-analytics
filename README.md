@@ -4,23 +4,23 @@
 
 * **Maximize:**
 
-$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{conv}]*x_{i,j} $$
+$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{conv}]*x_{i,j} $$ \
 
-$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{leads}]*x_{i,j} $$
+$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{leads}]*x_{i,j} $$ \
 
-$$ \sum_{i \in I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{clicks}]*x_{i,j} $$
+$$ \sum_{i \in I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{clicks}]*x_{i,j} $$ \
 
 * **Minimize:**
 
-$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpa}]*\frac{x_{i,j}}{\Beta} $$
+$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpa}]*\frac{x_{i,j}}{\Beta} $$ \
 
-$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpl}]*\frac{x_{i,j}}{\Beta} $$
+$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpl}]*\frac{x_{i,j}}{\Beta} $$ \
 
 **Subject to:**
 
 $ \sum_{i \in I} \sum_{j \in J} x_{i,j} = \Beta $
 
-$ \beta_{j}^{inf} \leq \sum_{i \in I} x_{i,j} \leq \beta_{j}^{sup}, \forall j \in J $
+$ \beta_{j}^{inf} \leq \sum_{i \in I} x_{i,j} \leq \beta_{j}^{sup}, \forall j \in J $ 
 
 $ \omega_{i}^{min} \leq \sum_{j \in J} \frac{x_{i,j}}{\Beta} \leq \omega_{i}^{max}, \forall i \in I $
 
