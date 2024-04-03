@@ -4,17 +4,17 @@
 
 * **Maximize:**
 
-$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{conv}]*x_{i,j} $$ \
+$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}] * \mathbb{E}[R_{i,j}^{conv}] * x_{i,j} $$ 
 
-$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{leads}]*x_{i,j} $$ \
+$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}] * \mathbb{E}[R_{i,j}^{leads}] * x_{i,j} $$ 
 
-$$ \sum_{i \in I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}]*\mathbb{E}[R_{i,j}^{clicks}]*x_{i,j} $$ \
+$$ \sum_{i \in I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{imp}] * \mathbb{E}[R_{i,j}^{clicks}] * x_{i,j} $$ \
 
 * **Minimize:**
 
-$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpa}]*\frac{x_{i,j}}{\Beta} $$ \
+$$ \sum_{i \in C \cup L \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpa}] * \frac{x_{i,j}}{\Beta} $$ \
 
-$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpl}]*\frac{x_{i,j}}{\Beta} $$ \
+$$ \sum_{i \in L \cup C \subset I}\sum_{j \in J} \mathbb{E}[R_{i,j}^{cpl}] * \frac{x_{i,j}}{\Beta} $$ \
 
 **Subject to:**
 
@@ -60,9 +60,9 @@ $$ \sum_{i \in I} \mathbb{E}[R_{i}^{leads}] * y_{i} $$
 
 * **Minimize:**
 
-$$ \sum_{i \in I}\sum_{p \in I} y_{i}*y_{p}*\Sigma_{i,p}^{total} $$
+$$ \sum_{i \in I}\sum_{p \in I} y_{i} * y_{p} * \Sigma_{i,p}^{total} $$
 
-$$ \sum_{i \in I}\sum_{p \in I} z_{i,p}*\Sigma_{i,p}^{total} $$
+$$ \sum_{i \in I}\sum_{p \in I} z_{i,p} * \Sigma_{i,p}^{total} $$
 
 $$ \sum_{i \in I} \mathbb{E}[R_{i}^{cpa}] * y_{i} $$
 
